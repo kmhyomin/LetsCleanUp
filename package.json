@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@enact/core": "^5.6.0",
+    "@enact/spotlight": "^5.6.0",
     "@tanstack/react-query": "^5.105.3",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
