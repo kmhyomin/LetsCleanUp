@@ -1,4 +1,4 @@
-import type { QuizQuestion } from '../types'
+import type { QuizQuestion } from '../types';
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
@@ -51,6 +51,6 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       { label: '샤워·옷 냄새·구강 상태까지 확인해요', score: 2 },
     ],
   },
-]
+];
 
-export const MAX_QUIZ_SCORE = QUIZ_QUESTIONS.length * 2
+export const MAX_QUIZ_SCORE = QUIZ_QUESTIONS.length * 2;

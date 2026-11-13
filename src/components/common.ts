@@ -1,20 +1,20 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 20px;
-`
+`;
 
 export const SectionTitle = styled.h2`
   font-size: 22px;
   font-weight: 700;
-`
+`;
 
 export const SectionDesc = styled.p`
   color: ${({ theme }) => theme.color.textSub};
   font-size: 15px;
-`
+`;
 
 export const Card = styled.div`
   background: ${({ theme }) => theme.color.surface};
@@ -22,7 +22,7 @@ export const Card = styled.div`
   border-radius: ${({ theme }) => theme.radius.md};
   box-shadow: ${({ theme }) => theme.shadow};
   padding: 20px;
-`
+`;
 
 export const Button = styled.button<{ $variant?: 'primary' | 'ghost' }>`
   border: none;
@@ -43,7 +43,7 @@ export const Button = styled.button<{ $variant?: 'primary' | 'ghost' }>`
     opacity: 0.5;
     cursor: not-allowed;
   }
-`
+`;
 
 export const Badge = styled.span<{ $color?: string }>`
   display: inline-block;
@@ -53,7 +53,7 @@ export const Badge = styled.span<{ $color?: string }>`
   font-weight: 700;
   color: #fff;
   background: ${({ theme, $color }) => $color ?? theme.color.primary};
-`
+`;
 
 export const KeyHint = styled.p`
   font-size: 13px;
@@ -72,4 +72,4 @@ export const KeyHint = styled.p`
     font-size: 12px;
     text-align: center;
   }
-`
+`;

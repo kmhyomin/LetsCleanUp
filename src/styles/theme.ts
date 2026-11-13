@@ -21,6 +21,6 @@ export const theme = {
   media: {
     mobile: '@media (max-width: 720px)',
   },
-} as const
+} as const;
 
-export type AppTheme = typeof theme
+export type AppTheme = typeof theme;

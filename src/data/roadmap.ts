@@ -1,12 +1,12 @@
-import type { Level, RoadmapStage } from '../types'
+import type { Level, RoadmapStage } from '../types';
 
 export const LEVEL_LABEL: Record<Level, string> = {
   beginner: '새싹 시민',
   intermediate: '매너 시민',
   advanced: '클린 리더',
-}
+};
 
-export const LEVEL_ORDER: Level[] = ['beginner', 'intermediate', 'advanced']
+export const LEVEL_ORDER: Level[] = ['beginner', 'intermediate', 'advanced'];
 
 export const ROADMAP: RoadmapStage[] = [
   {
@@ -65,4 +65,4 @@ export const ROADMAP: RoadmapStage[] = [
       { id: 's5-t2', title: '클린 스팟 제보', description: '깨끗하게 관리되는 장소를 공유해요.' },
     ],
   },
-]
+];

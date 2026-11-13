@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   *, *::before, *::after {
@@ -32,4 +32,4 @@ export const GlobalStyle = createGlobalStyle`
     outline: 3px solid ${({ theme }) => theme.color.accent};
     outline-offset: 2px;
   }
-`
+`;

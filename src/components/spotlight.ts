@@ -1,6 +1,6 @@
-import type { ComponentPropsWithRef } from 'react'
-import { Spottable } from '@enact/spotlight/Spottable'
-import { SpotlightContainerDecorator } from '@enact/spotlight/SpotlightContainerDecorator'
+import type { ComponentPropsWithRef } from 'react';
+import { Spottable } from '@enact/spotlight/Spottable';
+import { SpotlightContainerDecorator } from '@enact/spotlight/SpotlightContainerDecorator';
 
 /**
  * Enact Spotlight 기반 공통 요소
@@ -11,14 +11,14 @@ import { SpotlightContainerDecorator } from '@enact/spotlight/SpotlightContainer
  * Enact 타입 정의는 문자열 태그를 넘기면 props 타입을 추론하지 못해서
  * 제네릭으로 HTML 요소 props 를 직접 지정합니다.
  */
-export const SpottableButton = Spottable<ComponentPropsWithRef<'button'>>('button')
+export const SpottableButton = Spottable<ComponentPropsWithRef<'button'>>('button');
 
 export const SpotlightContainer = SpotlightContainerDecorator<ComponentPropsWithRef<'div'>>(
   { enterTo: 'last-focused' },
   'div',
-)
+);
 
 export const SpotlightList = SpotlightContainerDecorator<ComponentPropsWithRef<'ol'>>(
   { enterTo: 'last-focused' },
   'ol',
-)
+);
